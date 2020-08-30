@@ -1,0 +1,66 @@
+#question1
+r = int (input(print("Enter the radius of the sphere")))
+vol = (4/3)*(22/7)*(r*r*r)
+print("Volume of sphere is ",int(vol))
+
+
+
+
+#question2
+a = int(input("Enter the starting of range"))
+b = int(input("Enter the ending of range"))
+num = int(input("Enter the number"))
+if(num>a and num<b):
+    print("Yes ")
+else:
+    print("No")
+    
+
+
+
+#question3
+s = input("Enter the string")
+upper , lower, i = 0 , 0 ,0
+n = len(s)
+for i in s:
+    if(i.isupper()):
+        upper = upper+1
+    else:
+        lower = lower+1
+print("Number of upper case alphabets are ", upper)
+print("Number of lower case alphabets are ", lower)
+
+
+
+
+#quetion4
+st = input("Enter the string")
+l = len(st)
+for i in range(l):
+    n = 0
+    for j in range(l):
+        if(st[j]==st[i]):
+             n=n+1
+    if(n==1):
+        print(st[i])
+
+
+
+
+
+
+
+#question6
+st = input("Enter the string :")
+st == st[::-1]
+
+
+
+
+
+
+
+
+
+
+        
