@@ -78,4 +78,22 @@ else:
         res = True
     else:
         res = False
-res       
+res 
+
+
+
+
+
+#Question5
+list1 = []
+res = False
+num = int(input("Enter list length :"))
+print("Enter the numbers :")
+for i in range(0,num):
+    element = int(input())
+    list1.append(element)
+for i in range(0,num-1):
+    if(list1[i]==list1[i+1] and list1[i]==3):
+        res = True
+        break
+print(res)
