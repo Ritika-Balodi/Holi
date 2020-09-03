@@ -1,0 +1,17 @@
+#question1
+st = input("Enter the string :")
+st.lower()
+n = len(st)
+ch = 'a'
+result = False
+if(n>=26):
+    for ch in 'z':
+        for i in st:
+            if(ch==i):
+                result = True
+                break
+
+if(result==False):
+    print("String is not a pangram.")
+else:
+    print("String is a pangram")
