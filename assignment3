@@ -40,3 +40,42 @@ def lesser_of_two_evens(x,y):
             less = a
     return less
 print("Lesser of the two evens is ",lesser_of_two_evens(a,b))
+
+
+
+
+
+
+
+#Question3
+string = input("Enter the string :")
+s = string.split()
+l = len(s)
+for i in range(l-1,-1,-1):
+    print(s[i],end=" ")
+    
+    
+    
+    
+    
+#Question4
+n = int(input("Enter a number :"))
+if(n>=200):
+    diff=n-200
+    if(diff<=10):
+        res = True
+    else:
+        res = False
+elif(n>=100):
+    diff=n-100
+    if(diff<=10):
+        res = True
+    else:
+        res = False
+else:
+    diff=100-n
+    if(diff<=10):
+        res = True
+    else:
+        res = False
+res       
