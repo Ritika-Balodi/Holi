@@ -97,3 +97,22 @@ for i in range(0,num-1):
         res = True
         break
 print(res)
+
+
+
+
+
+
+
+#Question 6
+a,b,c = int(input("Enter the first number :")),int(input("Second number :")),int(input("Third number :"))
+sum = a+b+c;
+def blackjack(s):
+    if(s<=21):
+        return s;
+    elif(a==11 or b==11 or c==11):
+        return s-10;
+    else:
+        return "BUST"
+
+print(blackjack(sum))
