@@ -116,3 +116,22 @@ def blackjack(s):
         return "BUST"
 
 print(blackjack(sum))
+
+
+
+
+
+#Question7
+List = []
+s = 0
+n = int(input("Enter the size of array :"))
+print("Enter the element :\n")
+for i in range(n):
+    element = int(input())
+    List.append(element)
+for i in range(n):
+    if(List[i]==6):
+        break
+    else:
+        s = List[i]+s
+print(s)
