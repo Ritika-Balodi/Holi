@@ -135,3 +135,22 @@ for i in range(n):
     else:
         s = List[i]+s
 print(s)
+
+
+
+
+
+#Question 8
+List1 = []
+n = int(input("Enter the size of array :"))
+print("Enter the element :\n")
+for i in range(n):
+    element = int(input())
+    List1.append(element)
+for i in range(n-2):
+    if(List1[i]==0 and List1[i+1]==0 and List1[i+2]==7):
+        res = "True"
+        break
+    else:
+        res = "False"
+print(res)
